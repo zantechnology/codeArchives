@@ -1,0 +1,9 @@
+syntax = "proto3";
+package test;
+option java_package = "distributed.test.protobuf";
+option java_outer_classname = "TestProto";
+ 
+message TestMessage {
+    int32 id = 1;
+    string name = 2;
+}
